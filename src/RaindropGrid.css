@@ -1,0 +1,18 @@
+.grid {
+    display: grid;
+    grid-template-rows: repeat(15, 22px);
+    grid-template-columns: repeat(20, 22px);
+    gap: 4px;
+    justify-content: center;
+    margin: 10% auto;
+    width: fit-content;
+    background-color: #000000;
+  }
+  
+  .cell {
+    width: 20px;
+    height: 20px;
+    background-color: #191919;
+    transition: background-color 0.3s;
+  }
+  
